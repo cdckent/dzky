@@ -1,6 +1,5 @@
 import pymysql
-import yaml
-from readyml import ReadConfig
+from config.readyml import ReadConfig
 rc=ReadConfig()
 class DB:
     def __init__(self):

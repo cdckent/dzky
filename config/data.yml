@@ -1,8 +1,0 @@
-SQL:
-  host: 10.10.4.22
-  port: 3306
-  user: root
-  passwd: Xiaoka520
-  database:
-webtest:
-  host: https://test.zhihuiyunxing.com/api/v1/

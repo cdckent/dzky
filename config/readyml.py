@@ -6,7 +6,7 @@ class ReadConfig():
     data = None
 
     def __init__(self):
-        with open('./config/data.yml' , 'r') as file:
+        with open('config.yml', 'r') as file:
             self.data = yaml.load(file.read(), Loader=yaml.FullLoader)
     '''' 获取yaml文件可读；直接将文件读取的放入到yaml.load()方法中'''
     
